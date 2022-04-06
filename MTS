@@ -47,10 +47,10 @@ app.component.html
         </tr>
       </thead>
       <tbody>
-          <tr *ngFor="let emp of products">
-          <td>{{emp.name}}</td>
-          <td>{{emp.brand}}</td>
-          <td>{{emp.price}}</td>
+          <tr *ngFor="let pro of products">
+          <td>{{pro.name}}</td>
+          <td>{{pro.brand}}</td>
+          <td>{{pro.price}}</td>
     </tr>
       </tbody>
     </table>
